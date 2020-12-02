@@ -28,6 +28,12 @@ body{
     background-color: var(--primary-color);
     height: auto;
 }
+
+img{
+    max-width: 70px;
+    padding: 1rem 0;
+    padding-left: 10px;
+}
 .appbar .title{
     font-size: 40px;
     font-weight: bolder;
