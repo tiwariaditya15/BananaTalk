@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Banana Talk</title>
+</head>
+<body>
+    <!-- Appbar -->
+    <div class="appbar">
+        <div class="flex">
+            <p class="title">Banana Talk</p>
+            <p class="title follow-through">where you learn how to speak to minions</p>
+        </div>
+    </div>
+
+    <!-- Input  -->
+    <div class="input">
+        <div class="container flex">
+            <textarea name="userInput" class="userInput" id="userInput" cols="50" rows="5" placeholder="Enter here"></textarea>
+        </div>
+        <div class="container flex">
+            <button class="btn-output" id="btn-output">Translate</button>
+        </div>
+    </div>
+
+    <!-- Output -->
+    <div class="output">
+        <div class="container flex">
+            <div class="text">Hold Up! Your banana translation would be right here.</div>
+        </div> 
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container flex icons">
+            <div class="api"><a href="https://funtranslations.com/minion" class="link">Minions API</a></div> 
+            <div class="slash">|</div> 
+            <div class="github"><a href="https://github.com/tiwariaditya15" class="link">Code</a></div>
+        </div>
+    </div>
+<script src="./script/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+:root{
+    --primary-color : #fcbf49;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    /* background-color: antiquewhite; */
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.appbar{
+    background-color: var(--primary-color);
+    height: auto;
+}
+.appbar .title{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    margin: 1.5rem 1.5rem;
+}
+
+.appbar .follow-through{
+    font-size: 10px;
+    padding: 0 5px;
+    margin: 3.3rem 0;
+}
+
+.input textarea{
+    margin: 2rem auto;
+    max-width: 300px;
+    padding: 30px;
+    border: 0px;
+    border-radius: 1rem;
+    background-color: #F9FAFB;
+}
+
+
+.input textarea:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+.btn-output{
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.text{
+    background-color: #F9FAFB;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 8rem;
+}
+
+.text::selection{
+    color: var(--primary-color);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    padding: 1.5rem;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer a:hover{
+    outline: none;
+}
+.footer .icons{
+    padding: 2rem 0;
+}
